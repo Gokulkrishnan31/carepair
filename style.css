@@ -1,0 +1,228 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-header h2{
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: #e53f29;
+}
+.section-header{
+    margin-bottom: 40px;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-brand {
+    color: #08194a;
+    /* color: aliceblue; */
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-brand span{
+    color: #e53f29;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 20px;
+    background: red;
+
+}
+.w-100{
+    height: 100vh;
+}
+.carousel{
+    background: url(./image/360_F_221156690_99gkyGUSALA4bFV1Zg1joIOO5927q90q.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    /* color: #08194a; */
+    color: aliceblue;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #08194a;
+}
+.carousel-caption p{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: orangered;
+    line-height: 1.8;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #08194a;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 15px;
+}
+.carousel-caption a:hover{
+    color: #e53f29;
+}
+
+/* about */
+.section-padding{
+    padding: 80px 0;
+}
+.about-text h2{
+    color: #08194a;
+    font-size: 30px;
+    font-weight: 700;
+    /* background-color: #e53f29; */
+}
+.about-text h2 span{
+    color: #e53f29;
+}
+.about-text .btn{
+    background-color: #08194a;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.about-text .btn:hover {
+    color: aliceblue;
+}
+/* services */
+.single-services{
+    background: #08194a;
+    color: aliceblue;
+    padding: 30px 15px;
+}
+.single-services i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.single-services h2{
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+/* choose */
+.single-box i{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #e53f29;
+    
+}
+.single-box{
+    padding: 20px 0;
+}
+.single-box h2{
+    font-family:"Bebas Neue", sans-serif;
+    color: #08194a;
+}
+
+/* testimonal */
+.testi-img{
+    /* border-radius: 50%; */
+ height: 80px;
+ width: 80px;
+ overflow: hidden;
+ border-radius: 50%;
+ margin: 10px auto 20px;
+ /* background-position: center; */
+ /* background-color: red; */
+ /* display: flex; */
+ /* align-items: center; */
+ /* justify-content: center; */
+ /* display: inline-block; */
+ /* z-index: 3; */
+}
+.testi-img img{
+    width: 100%;
+}
+.testi-card h2{
+    color: #08194a;
+    font-family:"Bebas Neue", sans-serif ;
+}
+.testi-card h5{
+    color: #08194a;
+    font-weight: 700;
+    font-size: 20px;
+    /* padding: 20px 0; */
+}
+.testi-card h5 span{
+    color: #e53f29;
+    font-size: 18px;
+    /* margin: 50px auto 10px; */
+    /* padding: 120px 0; */
+}
+.testi-card{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px 15px;
+}
+/* contact */
+
+.single-contact{
+    background: #08194a;
+    /* height: 300px; */
+    /* width: 400px; */
+    padding: 50px;
+    
+    
+}
+.contact-head {
+    padding: 10px 0 0 0;
+}
+.contact-head h5{
+    font-size: 25px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:"Bebas Neue", sans-serif ;
+}
+.contact-head p{
+    color: aliceblue;
+}
+label{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.contact .btn{
+    background: #08194a;
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+/* footer */
+
+footer{
+    background: #08194a;
+    padding: 30px;
+    color: aliceblue;
+}
+.social i{
+    font-size: 30px;
+    margin: 10px 15px;
+}
